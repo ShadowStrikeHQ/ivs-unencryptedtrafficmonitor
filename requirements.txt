@@ -1,0 +1,12 @@
+```
+pcapy>=0.11.1
+scapy>=2.5.0
+```
+
+**Explanation:**
+
+*   **`pcapy`:**  `pcapy` is a Python extension module that allows you to capture packets from the network. I chose version `0.11.1` as it's a recent and stable release.
+*   **`scapy`:** `scapy` is a powerful interactive packet manipulation program. `2.5.0` is a relatively recent stable release of Scapy, offering good features and bug fixes.
+*   **`struct`:** The `struct` module is part of the Python standard library.  It does *not* require separate installation, so I excluded it.  It's always available with your Python installation.
+
+I've chosen versions that are reasonably up-to-date, while also aiming for stability.  You might need to adjust these based on specific features you need or compatibility requirements of your project.  Always check the package's documentation on PyPI or its official website for the most accurate information about features, dependencies, and compatibility.
